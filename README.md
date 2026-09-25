@@ -7,6 +7,13 @@ Requests to WB run inside a wildberries.ru tab of an already running Chrome (via
 so they use the browser's session, cookies, proxy and WB's anti-bot token. The auth token and `deviceid` are added
 to requests right in the browser and never leave it.
 
+## Example
+
+ChatGPT with wb-mcp connected: "have my WB orders arrived?" — one `orders_summary` call answers what is waiting
+at the pickup point, whether anything is due on pickup and the pick-up deadline.
+
+![Example: checking Wildberries orders in ChatGPT](docs/example-chatgpt.png)
+
 ## Tools
 
 | Tool | What it does |
